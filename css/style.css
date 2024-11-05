@@ -1,0 +1,159 @@
+:root {
+    --primary-color:white;
+    --secoundary-color:rgba(245, 245, 245, 0.651);
+    --Third-color: linear-gradient( 135deg, #ABDCFF 10%, #0396FF 100%);
+    --forth-color: linear-gradient( 135deg, #E2B0FF 10%, #9F44D3 100%);
+
+
+
+    --text-gradients1: linear-gradient( 109.6deg,  rgba(228,107,232,1) 11.2%, rgba(87,27,226,1) 96.7% );
+   
+    --topic-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+}
+
+body {
+    /* font-family: ; */
+}
+
+
+.header-title {
+    height:100px;
+    background:var(--primary-color);
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 0px 0px;
+}
+.header-title h1 {
+    font-weight: 900;
+    background: var(--text-gradients1);
+    color: transparent;
+    background-clip: text;
+}
+.header-title sub {
+    color: blueviolet;
+    /* flex-direction: ; */
+}
+
+
+
+
+
+
+
+
+.app-box {
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.topic-name {
+    width: 300px;
+    height: 250px;
+    background: var(--secoundary-color);
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 5px;
+    /* box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px; */
+    box-shadow: var(--topic-shadow);
+}
+
+.first-box {
+    gap: 30px;
+}
+
+.topic-name h4 {
+    background: var(--text-gradients1);
+    color: transparent;
+    background-clip: text;
+}
+
+.celcies-f {
+    width: 300px;
+    height: 250px;
+    background: var(--secoundary-color);
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    gap: 10px;
+}
+
+.celcies-f input {
+    border: none;
+    padding: 20px 5px ;
+    outline: none;
+    border-radius: 5px;
+}
+.celcies-f button {
+    border: none;
+    width: 40%;
+    padding: 10px;
+    border-radius: 5px;
+    background: var(--primary-color);
+}
+.celcies-f h1 {
+    background: var(--text-gradients1);
+    color: transparent;
+    background-clip: text;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.number {
+    width: 300px;
+    height: 250px;
+    background: var(--Third-color);
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    gap: 10px;
+}
+.number button {
+    border: none;
+    width: 40%;
+    padding: 10px;
+    border-radius: 5px;
+    background: var(--primary-color);
+}
+.input-box {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.input-box input {
+    width: 50%;
+    border: none;
+    padding: 15px 5px ;
+    outline: none;
+    border-radius: 5px;
+}
+
+.number h1 {
+    /* background: var(--forth-color); */
+    color: white;
+    background-clip: text;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+
+.button {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.button button {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.button button img {
+    height: 20px;
+}

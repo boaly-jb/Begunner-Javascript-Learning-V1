@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <title>Javascript Project</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+<body>
+                <!--* App Titel START -->
+
+    <section class="header">
+        <div class="container">
+                <div class="header-title d-flex flex-row justify-content-center align-items-center">
+                    <h1>Begunner Javascript Learning-V<sub>1</sub></h1>
+                </div>
+        </div>
+    </section>
+           <!-- App Title END  -->
+
+<!--* Topic One START -->
+<section class="veriable-class">
+    <div class="container d-flex flex-column">
+        <div class="row app-box d-flex flex-row ">
+            <div class=" col-3 .col-sm- topic-name d-flex flex-column ">
+                <h4> Weather Converter </h4>
+                <p style="font-weight: bold;">Topic 01   <br><span style="color: blueviolet;">
+                    02-11-2024
+                </span>    </p>
+                <p> This App creat only using javascript veriable everyone can make this only using one trick </p>
+                <a href="#">Get Source Code</a>
+            </div>
+            <div class="col-8  d-flex  first-box">
+                <div class="celcies-f ">
+                    <input type="number" id="fahrenheit-input" placeholder=" Type Your Celcies Number">
+                    <button onclick="fahrenheitInput()" type="submit"> Ok</button>
+                    <h1 id="fahrenheit-result">
+                        Celcies to Fahrenheit
+                    </h1>
+                </div>
+                <div class="celcies-f">
+                    <input type="number" id="celsius-input" placeholder=" Type Your Fahrenheit Number">
+                    <button onclick="celsiusInput()" type="submit"> Ok</button>                 
+                    <h1 id="celsius-result">
+                         Fahrenheit to Celcies 
+                    </h1>
+                </div>
+            </div>
+        </div>
+        <!-- Topic One  END -->
+
+        <!-- * Topic Two START -->
+<div class="row app-box d-flex flex-row ">
+
+    <div class=" col-3 topic-name d-flex flex-column ">
+        <h4> Oparetor </h4>
+        <p style="font-weight: bold;">Topic 02   <br><span style="color: blueviolet;">
+            03-11-2024
+        </span>    </p>
+        <p> This App creat only using javascript veriable everyone can make this only using one trick </p>
+        <a href="#">Get Source Code</a>
+    </div>
+
+    <div class="col-8 d-flex  first-box">
+
+        <div class="number">
+            <div class="input-box">
+                <input type="number" id="number-input" placeholder="Number 1">
+                <input type="number" id="number-input2" placeholder="Number2">
+            </div>
+           
+            <div class="button ">
+                <button onclick="calculate('add')"> <img src="https://img.icons8.com/?size=100&id=44038&format=png&color=000000" alt=""> </button>
+                <button onclick="calculate('subtract')">   <img src="https://img.icons8.com/?size=100&id=48319&format=png&color=000000" alt="">  </button>
+                <button onclick="calculate('multiply')">
+                 <img src="https://img.icons8.com/?size=100&id=110627&format=png&color=000000" alt="">
+                </button>
+                <button onclick="calculate('divide')"> <img src="https://img.icons8.com/?size=100&id=110626&format=png&color=000000" alt=""></button>
+            </div>
+        
+            <h1 id="plus-result">Sum Result </h1>
+        </div>
+
+    </div>
+
+</div>
+
+<!-- * Topic Two END -->
+    </div>
+</section>
+
+
+
+
+
+<!-- 
+
+    <div class="container">
+        <h2>Simple Calculator</h2>
+        <input type="number" id="num1" placeholder="Enter first number">
+        <input type="number" id="num2" placeholder="Enter second number">
+    
+        <div>
+            <button onclick="calculate('add')">Addition</button>
+            <button onclick="calculate('subtract')">Subtraction</button>
+            <button onclick="calculate('multiply')">Multiplication</button>
+            <button onclick="calculate('divide')">Division</button>
+        </div>
+    
+        <div id="result"></div>
+    </div>
+     -->
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./my-js/app.js"></script>
+</body>
+</html>

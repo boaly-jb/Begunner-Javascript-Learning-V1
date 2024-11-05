@@ -1,0 +1,28 @@
+@media only screen and (max-width: 768px) { 
+    .app-box {
+        gap: 30px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .topic-name {
+        width: 90%;
+    }
+    .first-box {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        /* margin-top: 50px; */
+        padding-bottom: 50px;
+
+    }
+    .celcies-f {
+        width: 90%;
+        height: auto;
+    }
+    .number  {
+        width: 90%;
+    }
+ }
